@@ -1,0 +1,12 @@
+.sideBarContainer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    border-right-width: 1px;
+    gap: 0.5rem;
+    flex-direction: column;
+    width: 84px;
+    height: 100%;
+    display: flex;
+}

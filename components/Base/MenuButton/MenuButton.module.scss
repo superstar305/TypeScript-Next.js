@@ -1,0 +1,50 @@
+.buttonContainer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    gap: 0.25rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    cursor: pointer;
+    -webkit-appearance: button;
+    background-color: transparent;
+    text-transform: none;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+.imageContainer {
+    transition-duration: .2s;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 9999px;
+    align-content: center;
+    text-align: center;
+}
+.buttonContainer:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55);;
+}
+.textContainer {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 11px;
+}

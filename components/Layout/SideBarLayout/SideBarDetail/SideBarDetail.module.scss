@@ -1,0 +1,24 @@
+.sideBarDetailContainer {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.tabsContainer {
+    gap: 1rem;
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    display: grid;
+    margin-top: 1rem;
+}
+
+.imageContainer {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-weight: 500;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 100%;
+}
